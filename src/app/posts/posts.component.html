@@ -1,0 +1,10 @@
+<div *ngFor = "let post of userPosts" >
+    Name: <span>{{post.name}}</span> <br>
+    Age: <span>{{post.age}}</span><br>
+    Email: <span>{{post.email}}</span><br>
+    Website: <span>{{post.website}}</span><br>
+    Post: <span>{{post.post}}</span><br>
+    <button [routerLink] = "['/post',post._id]">Edit</button>
+    <button (click)="deletePost(post._id)">Delete</button>
+    <hr><hr>
+  </div>
