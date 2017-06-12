@@ -16,6 +16,7 @@ use **npm install** in command prompt in the location of you local folder where 
 8. Try and have FUN.
 9. In the location of your folder, run **node ./src/server,js** to start the express server. Port used for this server is **3000**. 
 10. Also please remember to install and start the mongodb server as well before running this app. We have used **admin** database and **UserPosts** is the collection name.
+11. Note :- There are no input validations implemented in the web app. Its just a basic app performing CRUD operations. 
 
 For more information regarding creating components, class, services and new projects using angular-cli in angular2, you can refer tot he link mentioned below.  
 https://www.npmjs.com/package/angular-cli
